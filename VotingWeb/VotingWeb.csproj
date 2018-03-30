@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <IsServiceFabricServiceProject>True</IsServiceFabricServiceProject>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\lib\bower_components\angular-bootstrap\.bower.json" />
+    <Content Include="wwwroot\lib\bower_components\angular-bootstrap\bower.json" />
+    <Content Include="wwwroot\lib\bower_components\angular-bootstrap\package.json" />
+    <Content Include="wwwroot\lib\bower_components\angular-bootstrap\ui-bootstrap-csp.css" />
+    <Content Include="wwwroot\lib\bower_components\angular\.bower.json" />
+    <Content Include="wwwroot\lib\bower_components\angular\angular-csp.css" />
+    <Content Include="wwwroot\lib\bower_components\angular\bower.json" />
+    <Content Include="wwwroot\lib\bower_components\angular\package.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.ServiceFabric" Version="6.1.480" />
+    <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.Kestrel" Version="3.0.480" />
+    <PackageReference Include="Microsoft.ServiceFabric.Data" Version="3.0.480" />
+    <PackageReference Include="Microsoft.ServiceFabric.Services" Version="3.0.480" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\bower_components\angular-bootstrap\.gitignore" />
+    <None Include="wwwroot\lib\bower_components\angular-bootstrap\.npmignore" />
+    <None Include="wwwroot\lib\bower_components\angular-bootstrap\index.js" />
+    <None Include="wwwroot\lib\bower_components\angular-bootstrap\README.md" />
+    <None Include="wwwroot\lib\bower_components\angular-bootstrap\ui-bootstrap-tpls.js" />
+    <None Include="wwwroot\lib\bower_components\angular-bootstrap\ui-bootstrap-tpls.min.js" />
+    <None Include="wwwroot\lib\bower_components\angular-bootstrap\ui-bootstrap.js" />
+    <None Include="wwwroot\lib\bower_components\angular-bootstrap\ui-bootstrap.min.js" />
+    <None Include="wwwroot\lib\bower_components\angular\angular.js" />
+    <None Include="wwwroot\lib\bower_components\angular\angular.min.js" />
+    <None Include="wwwroot\lib\bower_components\angular\angular.min.js.gzip" />
+    <None Include="wwwroot\lib\bower_components\angular\angular.min.js.map" />
+    <None Include="wwwroot\lib\bower_components\angular\index.js" />
+    <None Include="wwwroot\lib\bower_components\angular\LICENSE.md" />
+    <None Include="wwwroot\lib\bower_components\angular\README.md" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,7 @@
+{
+  "name": "myproject",
+  "dependencies": {
+    "angular-bootstrap": "~2.5.0",
+    "bootstrap": "v4.0.0"
+  }
+}
